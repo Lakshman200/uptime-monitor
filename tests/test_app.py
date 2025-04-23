@@ -1,4 +1,4 @@
-from app import app
+from uptime_monitor.app import app
 
 def test_check_endpoint():
     client = app.test_client()
