@@ -14,5 +14,5 @@ RUN pip install --no-cache-dir flask requests
 EXPOSE 5050
 
 # Run the app
-CMD ["python", "app.py"]
+CMD ["python", "-m", "uptime_monitor.app"]
 
