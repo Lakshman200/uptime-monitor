@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: uptime-monitor
+    env: docker
+    plan: free
+    region: ohio
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 5050
+    autoDeploy: true
+
